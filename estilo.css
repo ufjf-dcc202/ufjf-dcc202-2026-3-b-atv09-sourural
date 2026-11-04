@@ -1,6 +1,12 @@
-main > article {
+body {
+    margin: 0;
+}
+main {
+    min-height: 100vh;
+}
 
-border: 1px solid red;
-resize: both;
-overflow: auto;
+main > article {
+    border: 1px solid red;
+    resize: both;
+    overflow: auto;
 }
