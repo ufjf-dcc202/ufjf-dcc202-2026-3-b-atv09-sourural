@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgb(255, 110, 110);
+            padding: 0.1em;
+        }
+        header, footer {
+            background-color: rgb(240, 240, 240);
+        }
+        main {
+            background-color: rgb(233, 233, 233);
+        }
+        section {
+            color: black;
+        }
+
+        .holy-grail {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: auto 1fr auto;
+        }
+        .holy-grail > header {
+            grid-column: 1 / 4;
+        }
+        .holy-grail > footer {
+            grid-column: 1 / 4;
+        }
+    </style>
+</head>
+<body>
+    <main>
+         <article class="holy-grail">
+            <header>
+            <h1>Exemplo 05: Holy Grail</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+            </ul>
+        </nav>
+            <section>    
+                <h2>Texto</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam non ipsum fugiat, rerum quisquam obcaecati inventore consectetur unde rem, similique maiores vero? Explicabo iste debitis reiciendis officia sunt asperiores itaque!</p>
+                    <p>Molestiae fugit, nobis eaque quae assumenda, vel sunt magnam saepe, debitis in nisi reprehenderit corrupti praesentium? Assumenda ipsum rem quia nobis ab soluta, inventore quas voluptates? Quos quod vel itaque?</p>
+                    <p>Tempora culpa quis quibusdam molestias? Itaque perferendis doloribus facere pariatur dolorem ullam quae recusandae dicta ea nostrum error iusto nulla tempora tempore, fugiat voluptatum. Nam enim distinctio omnis totam hic!</p>
+                </section>
+                <nav>
+                <ul>
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+            </ul>
+                <footer>
+                    &COPY; 2026 - DCC202 - UFJF
+                </footer>
+        </article> 
+    </main>
+</body>
+</html>
